@@ -17,7 +17,6 @@ function App() {
 }
 
 //External Link JS
-
 document.writeln("<script type='text/javascript' src='assets/user/js/main.js'></script>");
 document.writeln("<script type='text/javascript' src='assets/user/assets/validate.js'></script>");
 document.writeln("<script type='text/javascript' src='http://maps.googleapis.com/maps/api/js'></script>");
