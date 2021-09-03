@@ -10,8 +10,8 @@ function Home(props) {
                     <div id="preloader"><div data-loader="circle-side" /></div>{/* /Page Preload */}
                     <div id="logo">
                         <a href="index.html">
-                        <img src="assets/img/logo.svg" width={150} height={36} alt className="logo_normal" />
-                        <img src="assets/img/logo_sticky.svg" width={150} height={36} alt className="logo_sticky" />
+                        <img src="assets/user/img/logo.svg" width={150} height={36} alt className="logo_normal" />
+                        <img src="assets/user/img/logo_sticky.svg" width={150} height={36} alt className="logo_sticky" />
                         </a>
                     </div>
                     <ul id="top_menu">
@@ -177,7 +177,7 @@ function Home(props) {
                         <div id="slider" className="flexslider">
                         <ul className="slides">
                             <li>
-                            <img src="assets/img/flex_slides/slide_1.jpg" alt />
+                            <img src="assets/user/img/flex_slides/slide_1.jpg" alt />
                             <div className="meta">
                                 <h3>Bangkok, A city that never stays the same</h3>
                                 <div className="info">
@@ -187,7 +187,7 @@ function Home(props) {
                             </div>
                             </li>
                             <li>
-                            <img src="assets/img/flex_slides/slide_2.jpg" alt />
+                            <img src="assets/user/img/flex_slides/slide_2.jpg" alt />
                             <div className="meta">
                                 <h3>Dubai, The most attractive destination</h3>
                                 <div className="info">
@@ -197,7 +197,7 @@ function Home(props) {
                             </div>
                             </li>
                             <li>
-                            <img src="assets/img/flex_slides/slide_3.jpg" alt />
+                            <img src="assets/user/img/flex_slides/slide_3.jpg" alt />
                             <div className="meta">
                                 <h3>Cairo, Traditions and culture</h3>
                                 <div className="info">
@@ -207,7 +207,7 @@ function Home(props) {
                             </div>
                             </li>
                             <li>
-                            <img src="assets/img/flex_slides/slide_4.jpg" alt />
+                            <img src="assets/user/img/flex_slides/slide_4.jpg" alt />
                             <div className="meta">
                                 <h3>Nassau, Unique beaches and horizons</h3>
                                 <div className="info">
@@ -217,7 +217,7 @@ function Home(props) {
                             </div>
                             </li>
                             <li>
-                            <img src="assets/img/flex_slides/slide_5.jpg" alt />
+                            <img src="assets/user/img/flex_slides/slide_5.jpg" alt />
                             <div className="meta">
                                 <h3>Rome, The Eternal City</h3>
                                 <div className="info">
@@ -233,35 +233,35 @@ function Home(props) {
                         <div id="carousel_slider" className="flexslider">
                             <ul className="slides">
                             <li>
-                                <img src="assets/img/flex_slides/slide_1_thumb.jpg" alt />
+                                <img src="assets/user/img/flex_slides/slide_1_thumb.jpg" alt />
                                 <div className="caption">
                                 <h3>Bangkok <span>Thailand</span></h3>
                                 <small>$75 per person</small>
                                 </div>
                             </li>
                             <li>
-                                <img src="assets/img/flex_slides/slide_2_thumb.jpg" alt />
+                                <img src="assets/user/img/flex_slides/slide_2_thumb.jpg" alt />
                                 <div className="caption">
                                 <h3>Dubai <span>Emirates</span></h3>
                                 <small>$75 per person</small>
                                 </div>
                             </li>
                             <li>
-                                <img src="assets/img/flex_slides/slide_3_thumb.jpg" alt />
+                                <img src="assets/user/img/flex_slides/slide_3_thumb.jpg" alt />
                                 <div className="caption">
                                 <h3>Cairo <span>Egypt</span></h3>
                                 <small>$45 per person</small>
                                 </div>
                             </li>
                             <li>
-                                <img src="assets/img/flex_slides/slide_4_thumb.jpg" alt />
+                                <img src="assets/user/img/flex_slides/slide_4_thumb.jpg" alt />
                                 <div className="caption">
                                 <h3>Nassau <span>Bahamas</span></h3>
                                 <small>$85 per person</small>
                                 </div>
                             </li>
                             <li>
-                                <img src="assets/img/flex_slides/slide_5_thumb.jpg" alt />
+                                <img src="assets/user/img/flex_slides/slide_5_thumb.jpg" alt />
                                 <div className="caption">
                                 <h3>Rome <span>Italy</span></h3>
                                 <small>$75 per person</small>
@@ -282,7 +282,7 @@ function Home(props) {
                             <div className="box_grid">
                             <figure>
                                 <a href="#0" className="wish_bt" />
-                                <a href="tour-detail.html"><img src="assets/img/tour_1.jpg" className="assets/img-fluid" alt width={800} height={533} /><div className="read_more"><span>Read more</span></div></a>
+                                <a href="tour-detail.html"><img src="assets/user/img/tour_1.jpg" className="assets/img-fluid" alt width={800} height={533} /><div className="read_more"><span>Read more</span></div></a>
                                 <small>Historic</small>
                             </figure>
                             <div className="wrapper">
@@ -301,7 +301,7 @@ function Home(props) {
                             <div className="box_grid">
                             <figure>
                                 <a href="#0" className="wish_bt" />
-                                <a href="tour-detail.html"><img src="assets/img/tour_2.jpg" className="assets/img-fluid" alt width={800} height={533} /><div className="read_more"><span>Read more</span></div></a>
+                                <a href="tour-detail.html"><img src="assets/user/img/tour_2.jpg" className="assets/img-fluid" alt width={800} height={533} /><div className="read_more"><span>Read more</span></div></a>
                                 <small>Churches</small>
                             </figure>
                             <div className="wrapper">
@@ -320,7 +320,7 @@ function Home(props) {
                             <div className="box_grid">
                             <figure>
                                 <a href="#0" className="wish_bt" />
-                                <a href="tour-detail.html"><img src="assets/img/tour_3.jpg" className="assets/img-fluid" alt width={800} height={533} /><div className="read_more"><span>Read more</span></div></a>
+                                <a href="tour-detail.html"><img src="assets/user/img/tour_3.jpg" className="assets/img-fluid" alt width={800} height={533} /><div className="read_more"><span>Read more</span></div></a>
                                 <small>Historic</small>
                             </figure>
                             <div className="wrapper">
@@ -339,7 +339,7 @@ function Home(props) {
                             <div className="box_grid">
                             <figure>
                                 <a href="#0" className="wish_bt" />
-                                <a href="tour-detail.html"><img src="assets/img/tour_3.jpg" className="assets/img-fluid" alt width={800} height={533} /><div className="read_more"><span>Read more</span></div></a>
+                                <a href="tour-detail.html"><img src="assets/user/img/tour_3.jpg" className="assets/img-fluid" alt width={800} height={533} /><div className="read_more"><span>Read more</span></div></a>
                                 <small>Historic</small>
                             </figure>
                             <div className="wrapper">
@@ -358,7 +358,7 @@ function Home(props) {
                             <div className="box_grid">
                             <figure>
                                 <a href="#0" className="wish_bt" />
-                                <a href="tour-detail.html"><img src="assets/img/tour_4.jpg" className="assets/img-fluid" alt width={800} height={533} /><div className="read_more"><span>Read more</span></div></a>
+                                <a href="tour-detail.html"><img src="assets/user/img/tour_4.jpg" className="assets/img-fluid" alt width={800} height={533} /><div className="read_more"><span>Read more</span></div></a>
                                 <small>Museum</small>
                             </figure>
                             <div className="wrapper">
@@ -377,7 +377,7 @@ function Home(props) {
                             <div className="box_grid">
                             <figure>
                                 <a href="#0" className="wish_bt" />
-                                <a href="tour-detail.html"><img src="assets/img/tour_5.jpg" className="assets/img-fluid" alt width={800} height={533} /><div className="read_more"><span>Read more</span></div></a>
+                                <a href="tour-detail.html"><img src="assets/user/img/tour_5.jpg" className="assets/img-fluid" alt width={800} height={533} /><div className="read_more"><span>Read more</span></div></a>
                                 <small>Walking</small>
                             </figure>
                             <div className="wrapper">
@@ -410,7 +410,7 @@ function Home(props) {
                             <a href="hotel-detail.html" className="grid_item">
                                 <figure>
                                 <div className="score"><strong>8.9</strong></div>
-                                <img src="assets/img/hotel_1.jpg" className="assets/img-fluid" alt />
+                                <img src="assets/user/img/hotel_1.jpg" className="assets/img-fluid" alt />
                                 <div className="info">
                                     <div className="cat_star"><i className="icon_star" /><i className="icon_star" /><i className="icon_star" /><i className="icon_star" /></div>
                                     <h3>Mariott Hotel</h3>
@@ -423,7 +423,7 @@ function Home(props) {
                             <a href="hotel-detail.html" className="grid_item">
                                 <figure>
                                 <div className="score"><strong>7.9</strong></div>
-                                <img src="assets/img/hotel_2.jpg" className="assets/img-fluid" alt />
+                                <img src="assets/user/img/hotel_2.jpg" className="assets/img-fluid" alt />
                                 <div className="info">
                                     <div className="cat_star"><i className="icon_star" /><i className="icon_star" /><i className="icon_star" /><i className="icon_star" /></div>
                                     <h3>Concorde Hotel </h3>
@@ -436,7 +436,7 @@ function Home(props) {
                             <a href="hotel-detail.html" className="grid_item">
                                 <figure>
                                 <div className="score"><strong>7.0</strong></div>
-                                <img src="assets/img/hotel_3.jpg" className="assets/img-fluid" alt />
+                                <img src="assets/user/img/hotel_3.jpg" className="assets/img-fluid" alt />
                                 <div className="info">
                                     <div className="cat_star"><i className="icon_star" /><i className="icon_star" /><i className="icon_star" /><i className="icon_star" /></div>
                                     <h3>Louvre Hotel</h3>
@@ -449,7 +449,7 @@ function Home(props) {
                             <a href="hotel-detail.html" className="grid_item">
                                 <figure>
                                 <div className="score"><strong>8.9</strong></div>
-                                <img src="assets/img/hotel_4.jpg" className="assets/img-fluid" alt />
+                                <img src="assets/user/img/hotel_4.jpg" className="assets/img-fluid" alt />
                                 <div className="info">
                                     <div className="cat_star"><i className="icon_star" /><i className="icon_star" /><i className="icon_star" /><i className="icon_star" /></div>
                                     <h3>Park Yatt Hotel</h3>
@@ -474,7 +474,7 @@ function Home(props) {
                             <a href="restaurant-detail.html" className="grid_item">
                                 <figure>
                                 <div className="score"><strong>8.5</strong></div>
-                                <img src="assets/img/restaurant_1.jpg" className="assets/img-fluid" alt />
+                                <img src="assets/user/img/restaurant_1.jpg" className="assets/img-fluid" alt />
                                 <div className="info">
                                     <h3>Da Alfredo</h3>
                                 </div>
@@ -486,7 +486,7 @@ function Home(props) {
                             <a href="restaurant-detail.html" className="grid_item">
                                 <figure>
                                 <div className="score"><strong>7.9</strong></div>
-                                <img src="assets/img/restaurant_2.jpg" className="assets/img-fluid" alt />
+                                <img src="assets/user/img/restaurant_2.jpg" className="assets/img-fluid" alt />
                                 <div className="info">
                                     <h3>Slow Food</h3>
                                 </div>
@@ -498,7 +498,7 @@ function Home(props) {
                             <a href="restaurant-detail.html" className="grid_item">
                                 <figure>
                                 <div className="score"><strong>7.5</strong></div>
-                                <img src="assets/img/restaurant_3.jpg" className="assets/img-fluid" alt />
+                                <img src="assets/user/img/restaurant_3.jpg" className="assets/img-fluid" alt />
                                 <div className="info">
                                     <h3>Bella Napoli</h3>
                                 </div>
@@ -510,7 +510,7 @@ function Home(props) {
                             <a href="restaurant-detail.html" className="grid_item">
                                 <figure>
                                 <div className="score"><strong>9.0</strong></div>
-                                <img src="assets/img/restaurant_4.jpg" className="assets/img-fluid" alt />
+                                <img src="assets/user/img/restaurant_4.jpg" className="assets/img-fluid" alt />
                                 <div className="info">
                                     <h3>Marcus</h3>
                                 </div>
@@ -547,7 +547,7 @@ function Home(props) {
                         <div className="row">
                             <div className="col-lg-6">
                             <a className="box_news" href="#0">
-                                <figure><img src="assets/img/news_home_1.jpg" alt />
+                                <figure><img src="assets/user/img/news_home_1.jpg" alt />
                                 <figcaption><strong>28</strong>Dec</figcaption>
                                 </figure>
                                 <ul>
@@ -561,7 +561,7 @@ function Home(props) {
                             {/* /box_news */}
                             <div className="col-lg-6">
                             <a className="box_news" href="#0">
-                                <figure><img src="assets/img/news_home_2.jpg" alt />
+                                <figure><img src="assets/user/img/news_home_2.jpg" alt />
                                 <figcaption><strong>28</strong>Dec</figcaption>
                                 </figure>
                                 <ul>
@@ -575,7 +575,7 @@ function Home(props) {
                             {/* /box_news */}
                             <div className="col-lg-6">
                             <a className="box_news" href="#0">
-                                <figure><img src="assets/img/news_home_3.jpg" alt />
+                                <figure><img src="assets/user/img/news_home_3.jpg" alt />
                                 <figcaption><strong>28</strong>Dec</figcaption>
                                 </figure>
                                 <ul>
@@ -589,7 +589,7 @@ function Home(props) {
                             {/* /box_news */}
                             <div className="col-lg-6">
                             <a className="box_news" href="#0">
-                                <figure><img src="assets/img/news_home_4.jpg" alt />
+                                <figure><img src="assets/user/img/news_home_4.jpg" alt />
                                 <figcaption><strong>28</strong>Dec</figcaption>
                                 </figure>
                                 <ul>
@@ -629,7 +629,7 @@ function Home(props) {
                     <div className="container margin_60_35">
                         <div className="row">
                         <div className="col-lg-5 col-md-12 p-r-5">
-                            <p><img src="assets/img/logo.svg" width={150} height={36} alt /></p>
+                            <p><img src="assets/user/img/logo.svg" width={150} height={36} alt /></p>
                             <p>Mea nibh meis philosophia eu. Duis legimus efficiantur ea sea. Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu. Nihil facilisi indoctum an vix, ut delectus expetendis vis.</p>
                             <div className="follow_us">
                             <ul>
@@ -693,7 +693,7 @@ function Home(props) {
                                 </select>
                                 </div>
                             </li>
-                            <li><img src="assets/img/cards_all.svg" alt /></li>
+                            <li><img src="assets/user/img/cards_all.svg" alt /></li>
                             </ul>
                         </div>
                         <div className="col-lg-6">
@@ -710,52 +710,92 @@ function Home(props) {
                 </div>
                 {/* page */}
                 {/* Sign In Popup */}
-                <div id="sign-in-dialog" className="zoom-anim-dialog mfp-hide">
-                    <div className="small-dialog-header">
-                    <h3>Sign In</h3>
-                    </div>
-                    <form>
-                    <div className="sign-in-wrapper">
-                        <a href="#0" className="social_bt facebook">Login with Facebook</a>
-                        <a href="#0" className="social_bt google">Login with Google</a>
-                        <div className="divider"><span>Or</span></div>
-                        <div className="form-group">
-                        <label>Email</label>
-                        <input type="email" className="form-control" name="email" id="email" />
-                        <i className="icon_mail_alt" />
-                        </div>
-                        <div className="form-group">
-                        <label>Password</label>
-                        <input type="password" className="form-control" name="password" id="password" defaultValue />
-                        <i className="icon_lock_alt" />
-                        </div>
-                        <div className="clearfix add_bottom_15">
-                        <div className="checkboxes float-left">
-                            <label className="container_check">Remember me
-                            <input type="checkbox" />
-                            <span className="checkmark" />
-                            </label>
-                        </div>
-                        <div className="float-right mt-1"><a id="forgot" href="javascript:void(0);">Forgot Password?</a></div>
-                        </div>
-                        <div className="text-center"><input type="submit" defaultValue="Log In" className="btn_1 full-width" /></div>
-                        <div className="text-center">
-                        Don’t have an account? <a href="register.html">Sign up</a>
-                        </div>
-                        <div id="forgot_pw">
-                        <div className="form-group">
-                            <label>Please confirm login email below</label>
-                            <input type="email" className="form-control" name="email_forgot" id="email_forgot" />
-                            <i className="icon_mail_alt" />
-                        </div>
-                        <p>You will receive an email containing a link allowing you to reset your password to a new preferred one.</p>
-                        <div className="text-center"><input type="submit" defaultValue="Reset Password" className="btn_1" /></div>
-                        </div>
-                    </div>
-                    </form>
-                    {/*form */}
-                </div>
-                {/* /Sign In Popup */}
+  <div id="sign-in-dialog" className="zoom-anim-dialog mfp-hide">
+    <div className="small-dialog-header">
+      <h3>Sign In</h3>
+    </div>
+    <form>
+      <div className="sign-in-wrapper">
+        <a href="#0" className="social_bt facebook">Login with Facebook</a>
+        <a href="#0" className="social_bt google">Login with Google</a>
+        <div className="divider"><span>Or</span></div>
+        <div className="form-group">
+          <label>Email</label>
+          <input type="email" className="form-control" name="email" id="email" />
+          <i className="icon_mail_alt" />
+        </div>
+        <div className="form-group">
+          <label>Password</label>
+          <input type="password" className="form-control" name="password" id="password" defaultValue />
+          <i className="icon_lock_alt" />
+        </div>
+        <div className="clearfix add_bottom_15">
+          <div className="checkboxes float-left">
+            <label className="container_check">Remember me
+              <input type="checkbox" />
+              <span className="checkmark" />
+            </label>
+          </div>
+          <div className="float-right mt-1"><a id="forgot" href="javascript:void(0);">Forgot Password?</a></div>
+        </div>
+        <div className="text-center"><input type="submit" defaultValue="Log In" className="btn_1 full-width" /></div>
+        <div className="text-center">
+          Don’t have an account? <a href="#sign-up-dialog" id="sign-up">Sign up</a>
+        </div>
+        <div id="forgot_pw">
+          <div className="form-group">
+            <label>Please confirm login email below</label>
+            <input type="email" className="form-control" name="email_forgot" id="email_forgot" />
+            <i className="icon_mail_alt" />
+          </div>
+          <p>You will receive an email containing a link allowing you to reset your password to a new preferred one.</p>
+          <div className="text-center"><input type="submit" defaultValue="Reset Password" className="btn_1" /></div>
+        </div>
+      </div>
+    </form>
+    {/*form */}
+  </div>
+  {/* /Sign In Popup */}
+  {/* Sign Up Popup */}
+  <div id="sign-up-dialog" className="zoom-anim-dialog mfp-hide">
+    <div className="small-dialog-header">
+      <h3>Sign Up</h3>
+    </div>
+    <div className="sign-up-wrapper">
+      <form autoComplete="off">
+        <div className="form-group">
+          <label>Your Name</label>
+          <input className="form-control" type="text" />
+          <i className="ti-user" />
+        </div>
+        <div className="form-group">
+          <label>Your Last Name</label>
+          <input className="form-control" type="text" />
+          <i className="ti-user" />
+        </div>
+        <div className="form-group">
+          <label>Your Email</label>
+          <input className="form-control" type="email" />
+          <i className="icon_mail_alt" />
+        </div>
+        <div className="form-group">
+          <label>Your password</label>
+          <input className="form-control" type="password" id="password1" />
+          <i className="icon_lock_alt" />
+        </div>
+        <div className="form-group">
+          <label>Confirm password</label>
+          <input className="form-control" type="password" id="password2" />
+          <i className="icon_lock_alt" />
+        </div>
+        <div id="pass-info" className="clearfix" />
+        <a href="#0" className="btn_1 rounded full-width add_top_30">Register Now!</a>
+        <div className="text-center add_top_10">Already have an acccount? <strong><a href="#sign-in-dialog" id="sign-in-2">Sign In</a></strong></div>
+      </form>
+    </div>
+    {/*form */}
+  </div>
+  {/* /Sign Up Popup */}
                 <div id="toTop" />{/* Back to top button */}
             </div>
         </React.Fragment>
@@ -763,9 +803,6 @@ function Home(props) {
 }
 
     //External Link JS
-    document.writeln("<script type='text/javascript' src='assets/js/common_scripts.js'></script>");
-    document.writeln("<script type='text/javascript' src='assets/js/main.js'></script>");
-    document.writeln("<script type='text/javascript' src='assets/assets/validate.js'></script>");
     document.writeln("<script type='text/javascript' src='assets/js/jquery.flexslider.js></script>");
     document.writeln("<script type='text/javascript' src='assets/js/CustomHome.js'></script>");
 
